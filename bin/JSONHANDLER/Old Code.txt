@@ -1,0 +1,78 @@
+Old Code:
+
+            //ArrayList<Integer> listID = new ArrayList<Integer>();
+            // char[] allchar = fileString.toCharArray();
+            // System.out.println(allchar);
+            // int indexi = 0;
+            // int indexf = 0;
+            // int counter = 0;
+            // int numch = 0;
+            // //you will have to look at two at a time to remove a string from indexi to indexf.
+            // for (char ch : allchar) {
+            //     //System.out.println(ch);
+            //     if (counter == 0){
+            //         if (ch == '\"' && !(allchar[numch - 1] == '[' || allchar[numch - 1] == ':')){
+                        
+            //             indexi = numch + 1;
+            //             counter ++;
+            //         }
+                    
+            //     }
+            //     else{
+            //         if (ch == '\"' && !(allchar[numch + 1] == ']' || allchar[numch + 1] == ',' || allchar[numch + 1] == '\"' || allchar[numch - 1] == '[')){
+            //             indexf = numch;
+            //             if (indexf - 1 == indexi){
+            //                 System.out.println(indexi);
+            //                 System.out.println(indexf);
+                            
+            //                 System.out.println("hello");
+            //                 counter = 0;
+            //             }
+            //             else{
+            //                 System.out.println(indexi);
+            //                 System.out.println(indexf);
+            //                 listID.add(indexi);
+            //                 listID.add(indexf);
+            //                 counter = 0;
+            //             }
+            //         }
+            //     }
+            //     numch++;
+            // }
+            // //{"Order #":[11111,3333,5555],"Value":"1","Food":["Sushi","Burger"]}
+
+            // indexi = 0;
+            // indexf = 0;
+            // counter = 0;
+            // for (int i : listID){
+            //     if (counter == 0){
+            //         indexi = i;
+            //         counter++;
+            //     }
+            //     else{
+            //         indexf = i;
+            //         counter = 0;
+            //         if (!(fileString.substring(indexi, indexf).contains(","))){
+            //             jsontag.add(fileString.substring(indexi, indexf)); 
+            //         }  
+                    
+            //     }            
+            
+            // }
+            
+            // //Display Json Tags:
+            // for (String i : jsontag){
+            //     System.out.println("Json Tag:" + i);
+            // }
+
+
+            // //if statement }
+            // }
+
+//System.out.println(newJsonFile.get("Age")); //See the information stored in json. control slash to comment! control period to hide stuff.
+            //ArrayList<Integer> listNumber = new ArrayList<Integer>();
+            //for (Object o : (JSONArray) newJsonFile.get("Values")) {
+            //    listNumber.add(Integer.parseInt((String) o)); //Covert jsonarray to arraylist.
+            //}
+            //for (Integer o: listNumber){
+            //    System.out.println(o);
